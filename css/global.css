@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --clr-primary-teal-500: hsl(179, 62%, 43%);
+    --clr-primary-green-400: hsl(71, 73%, 54%);
+
+    --clr-neutral-teal-100: hsl(204, 43%, 93%);
+    --clr-neutral-teal-200: hsla(203, 44%, 93%, 0.436);
+    --clr-neutral-gray-500: hsl(218, 22%, 67%);
+    --clr-neutral-white-900: hsl(0, 0%, 100%);
+
+    --clr-shadow-black: rgba(0, 0, 0, 0.1);
+
+    --clr-accent-btn-hover: hsl(71, 98%, 66%);
+
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 3rem;
+
+    --font-size-body: 16px;
+
+    --font-type-body: 'Karla', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: var(--font-size-body);
+    font-family: var(--font-type-body);
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+h4 {
+    font-size: 1.15rem;
+    line-height: 1;
+}
+
+h5 {
+    font-size: 1.075rem;
+    line-height: 1;
+}
+
+h6 {
+    font-size: 1.025rem;
+    line-height: 1;
+}
+
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+
+a {
+    padding: var(--spacing-lg);
+    border-radius: var(--spacing-sm);
+    width: 100%;
+}
