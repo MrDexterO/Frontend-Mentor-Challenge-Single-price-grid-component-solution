@@ -88,6 +88,7 @@ using
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
 }
 
+```
 but the issue persisted. It was until I did this to the child containers
 
 ```css
